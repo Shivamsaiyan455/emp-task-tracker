@@ -1,11 +1,4 @@
-Here’s your **updated and cleaner `README.md`** with all your requests:
 
-* ✅ Removed MIT license section
-* ✅ No photo section
-* ✅ Refined the install section
-* ✅ Polished wording for clarity and professionalism
-
----
 
 ````markdown
 # 🧑‍💼 Employee Task Tracker
