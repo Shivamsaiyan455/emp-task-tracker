@@ -1,93 +1,86 @@
-
-
-````markdown
 # 🧑‍💼 Employee Task Tracker
 
-An Angular-based web application designed to manage and track employee tasks with a clean and responsive interface. Ideal for small teams and HR operations needing a lightweight task management system.
+An Angular project for managing employee tasks with a **modern UI**, **responsive layout**, and **modular structure**. Ideal for small teams and internal task assignment.
 
 ---
 
-## 🚀 Live Demo
+## 🔍 Overview
 
-> _Coming soon_ — this project can be deployed using GitHub Pages, Firebase, or Netlify.
+This project includes:
 
----
-
-## 🔧 Tech Stack
-
-- **Frontend Framework:** Angular 16.2.8
-- **Languages:** TypeScript, HTML, CSS
-- **Tools:** Angular CLI
+- ✅ Task Tracker Form with validations
+- ✅ Dynamic Task List View
+- ✅ Angular Component Architecture
+- ✅ Clean and responsive design
+- ✅ Lightweight and scalable frontend
 
 ---
 
-## 📂 Key Features
+## 🚀 Live Preview
 
-- 📝 Add and manage employee tasks
-- 📋 Dynamically view task records
-- ❌ Delete completed or unnecessary tasks
-- 💻 Fully responsive, mobile-friendly UI
-- ✅ Modular Angular architecture for easy scaling
+Run the app locally at:  
+**http://localhost:4200/**
 
 ---
 
-## 📦 Getting Started
+## 📁 Repository
 
-### Prerequisites
+GitHub Link: [https://github.com/Shivamsaiyan455/emp-task-tracker](https://github.com/Shivamsaiyan455/emp-task-tracker)
 
-- [Node.js](https://nodejs.org/)
-- [npm](https://www.npmjs.com/)
-- [Angular CLI](https://angular.io/cli)
+---
 
-### Installation Steps
+## ⚙️ Installation & Setup
 
 ```bash
 # Clone the repository
 git clone https://github.com/Shivamsaiyan455/emp-task-tracker.git
 
-# Navigate into the project folder
+# Navigate into the project directory
 cd emp-task-tracker
 
-# Install all project dependencies
+# Install dependencies
 npm install
-````
 
----
-
-## 💻 Run the Development Server
-
-```bash
+# Start the development server
 ng serve
 ```
 
-Then open your browser and visit:
-**[http://localhost:4200/](http://localhost:4200/)**
+---
 
-The application will automatically reload if you modify any source files.
+## 🧩 Project Structure
+
+```
+src/
+├── app/
+│   ├── components/      # Reusable components (e.g., task form, task list)
+│   ├── services/        # Task service for logic and data handling
+│   └── app.module.ts    # Root Angular module
+├── assets/              # Images, styles
+└── index.html           # Root HTML file
+```
 
 ---
 
-## 🧪 Testing
+## 🛠 Useful Commands
 
-### Run Unit Tests
-
-```bash
-ng test
-```
-
-### Run End-to-End (E2E) Tests
-
-```bash
-ng e2e
-```
-
-> Note: Ensure you have a package that supports E2E testing, like Protractor or Cypress.
+| Task               | Command                                |
+| ------------------ | -------------------------------------- |
+| Run dev server     | `ng serve`                             |
+| Build project      | `ng build`                             |
+| Generate component | `ng generate component component-name` |
+| Run unit tests     | `ng test`                              |
+| Run e2e tests      | `ng e2e` *(if configured)*             |
 
 ---
 
-## 👨‍💻 Author
+## 📚 Further Help
 
-**Shivam Thorat**
-🔗 [GitHub Profile](https://github.com/Shivamsaiyan455)
+For more Angular CLI commands and options:
 
+```bash
+ng help
+```
 
+Or visit the official [Angular CLI Docs](https://angular.io/cli)
+
+---
