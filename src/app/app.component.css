@@ -1,0 +1,155 @@
+/* Center the whole page vertically */
+.fullscreen-center {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4f6f9;
+}
+
+/* Container for the form + table */
+.tracker-container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+/* Title */
+.title {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 32px;
+  font-weight: 600;
+  color: #333;
+}
+
+/* Form layout */
+.tracker-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.tracker-form label {
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.tracker-form input,
+.tracker-form select {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 15px;
+  transition: border 0.3s ease;
+}
+
+.tracker-form input:focus,
+.tracker-form select:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+/* Submit button */
+.tracker-form button {
+  padding: 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.tracker-form button:hover {
+  background-color: #0056b3;
+}
+
+/* No task text */
+.no-task {
+  text-align: center;
+  margin-top: 30px;
+  color: #888;
+  font-style: italic;
+}
+
+/* Task table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 35px;
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.05);
+}
+
+th,
+td {
+  text-align: center;
+  padding: 14px;
+  border-bottom: 1px solid #eee;
+}
+
+th {
+  background-color: #f1f3f5;
+  font-weight: 600;
+}
+
+tr:hover {
+  background-color: #f9f9f9;
+}
+
+/* Complete button */
+.complete-btn {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 6px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.complete-btn:hover {
+  background-color: #218838;
+}
+@media (max-width: 576px) {
+  .tracker-container {
+    margin: 20px;
+    padding: 20px;
+    width: 90%;
+  }
+
+  table th,
+  table td {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  .title {
+    font-size: 24px;
+  }
+}
+
+
+/* Priority-specific styles */
+.low {
+  color: blueviolet;
+  font-size: 14px;
+}
+
+.medium {
+  color: royalblue;
+  font-size: 16px;
+}
+
+.high {
+  color: red;
+  font-size: 18px;
+  font-weight: bold;
+}
